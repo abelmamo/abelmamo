@@ -11,6 +11,8 @@ structures such as stem cells and organoids.
 - [CIFAR-10 classifier](https://github.com/abelmamo/computer-vision-projects/tree/master/image-classifier): CNN trained from scratch, 80.8% test accuracy.
 - [Pill detection](https://github.com/abelmamo/computer-vision-projects/tree/master/object-detection): YOLOv8n fine-tuned on a small medical dataset, mAP50 0.994.
 - [Quantitative phase imaging](https://github.com/abelmamo/computer-vision-projects/tree/master/quantitative-phase-imaging): label-free cell dry mass from off-axis holograms. Phase error 0.025 rad and median dry-mass error 0.23% on 200 simulated test cells, with ablations of each reconstruction step.
+- [Holotomography](https://github.com/abelmamo/computer-vision-projects/tree/master/holotomography): 3D refractive index from multi-angle fields (Rytov, Fourier diffraction theorem, Gerchberg-Papoulis). RI error 0.0049 on simulated cells, against 0.0083 for direct inversion.
+- [Virtual staining](https://github.com/abelmamo/computer-vision-projects/tree/master/virtual-staining): U-Net that predicts a nuclear stain from label-free phase images. Nucleus F1 0.993 from the virtual stain, against 0.995 from the real stain.
 - [Calcium imaging analysis](https://github.com/abelmamo/computer-vision-projects/tree/master/calcium-imaging-analysis): two-photon movies to neurons and spikes (motion correction, correlation-image detection, OASIS and a 1D CNN). Spike F1 0.946 with the CNN against 0.849 with OASIS on simulated movies.
 
 **Portfolio** [abelmamo.github.io/cvwebpage](https://abelmamo.github.io/cvwebpage/)
