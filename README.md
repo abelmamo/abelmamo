@@ -8,6 +8,7 @@ structures such as stem cells and organoids.
 **Selected work** (code in [computer-vision-projects](https://github.com/abelmamo/computer-vision-projects))
 
 - [Nucleus instance segmentation](https://github.com/abelmamo/computer-vision-projects/tree/master/biomedical-cell-segmentation): U-Net that predicts nuclei and the borders between them, with watershed splitting. F1 0.809 at IoU 0.5 on 50 held-out DSB2018 images, against 0.731 without the border map.
+- [Surface defect detection](https://github.com/abelmamo/computer-vision-projects/tree/master/surface-defect-detection): PatchCore written from scratch, trained on defect-free magnetic tiles only. Image AUROC 0.836 on 67 unseen tiles, against 0.603 for an autoencoder baseline. A random image split leaks photos of the same tile into training and would report 0.966.
 - [CIFAR-10 classifier](https://github.com/abelmamo/computer-vision-projects/tree/master/image-classifier): CNN trained from scratch, 80.8% test accuracy.
 - [Pill detection](https://github.com/abelmamo/computer-vision-projects/tree/master/object-detection): YOLOv8n fine-tuned on a small medical dataset, mAP50 0.994.
 
